@@ -1,0 +1,5 @@
+kagglehub
+pandas
+numpy
+plotly.express
+scikit-learn
