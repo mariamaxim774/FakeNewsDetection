@@ -14,8 +14,8 @@ class BertFakeNewsModelSingleton:
 
     def _load_model(self):
         try:
-            self.tokenizer = BertTokenizer.from_pretrained("./services/bert_fake_news_model_2")
-            self.model = BertForSequenceClassification.from_pretrained("./services/bert_fake_news_model")
+            self.tokenizer = BertTokenizer.from_pretrained("./services/bert_model_fake_news_detection_8")
+            self.model = BertForSequenceClassification.from_pretrained("./services/bert_model_fake_news_detection_8")
             print("BERT tokenizer and model loaded successfully (Singleton).")
         except Exception as e:
             print(f"Error loading BERT model: {e}")

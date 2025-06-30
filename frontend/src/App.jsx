@@ -17,7 +17,7 @@
     return (
       <> 
       <Header/> 
-      <Navbar/>
+      
       <main>
       <Form/>
       
